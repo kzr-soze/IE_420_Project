@@ -8,7 +8,7 @@ function [ price ] = BlackScholes(Option,K,T,S0,sigma,r,q)
     if (Option=='C')
         OpType = 1;
     elseif (Option=='P')
-        OpType = 2;
+        OpType = -1;
     else
         error('Invalid option type. Use C for call and P for put.')
     end

@@ -11,7 +11,7 @@ sigma = 0.2;
 Exercise = 'E';
 
 
-NMax = 10;
+NMax = 100;
 interval = 1;
 
 priceBSM = BlackScholes(Option,K,T,S0,sigma,r,q);
